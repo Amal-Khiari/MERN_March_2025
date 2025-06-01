@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #dddddd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* Header */
+.header {
+  background-color: #6aa84f;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Layout after header */
+.main-section {
+  display: flex;
+  flex: 1;
+}
+
+/* Left Navigation */
+.navigation {
+  background-color: #6fa8dc;
+  width: 150px;
+  margin-right: 10px;
+}
+
+/* Right Side */
+.main-content {
+  background-color: #e06666;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+/* Subcontent Row */
+.subcontents {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+/* Subcontent Box */
+.subcontent {
+  background-color: #ffd966;
+  flex: 1;
+}
+
+/* Advertisement */
+.advertisement {
+  background-color: #b4a7d6;
+  height: 80px;
+}
